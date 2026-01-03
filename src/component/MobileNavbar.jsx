@@ -37,8 +37,6 @@ export default function MobileNavbar() {
             </a>
           ))}
         </nav>
-
-        {/* Mobile Button */}
         <button
           onClick={() => setOpen(true)}
           className="text-2xl md:hidden"
@@ -46,8 +44,6 @@ export default function MobileNavbar() {
           ☰
         </button>
       </header>
-
-      {/* ===== MOBILE MENU ===== */}
       <div
         className={`fixed top-0 left-0 w-full h-full bg-white z-50
         transform transition-transform duration-300
@@ -75,8 +71,6 @@ export default function MobileNavbar() {
           ))}
         </nav>
       </div>
-
-      {/* ===== PAGE CONTENT (FIX OVERLAP) ===== */}
       <div className="pt-20 px-6">
       </div>
     </>
