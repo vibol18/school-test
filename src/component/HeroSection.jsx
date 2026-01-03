@@ -23,10 +23,11 @@ export default function HeroSection() {
         </button>
       </div>
 
-      {/* Floating Chat Button */}
+      <a href="https://t.me/ch_vibol">
       <button className="fixed bottom-6 right-4 bg-red-600 text-white px-5 py-3 rounded-full shadow-lg flex items-center gap-2">
         💬 Chat
       </button>
+      </a>
     </div>
   );
 }

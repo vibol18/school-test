@@ -24,7 +24,6 @@ export default function MobileNavbar() {
         <h1 className="text-orange-500 font-bold text-lg">
           Bol Coding
         </h1>
-        {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-6">
           {menus.map((item) => (
             <a
