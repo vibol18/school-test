@@ -9,8 +9,6 @@ import Container from './component/Container'
 import Contact from './component/Contact'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
      <MobileNavbar/>

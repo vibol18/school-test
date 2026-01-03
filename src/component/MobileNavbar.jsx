@@ -24,7 +24,6 @@ export default function MobileNavbar() {
         <h1 className="text-orange-500 font-bold text-lg">
           Bol Coding
         </h1>
-
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-6">
           {menus.map((item) => (
@@ -41,7 +40,7 @@ export default function MobileNavbar() {
           onClick={() => setOpen(true)}
           className="text-2xl md:hidden"
         >
-          ☰
+         Menu ☰
         </button>
       </header>
       <div
@@ -49,7 +48,6 @@ export default function MobileNavbar() {
         transform transition-transform duration-300
         ${open ? "translate-x-0" : "-translate-x-full"}`}
       >
-        {/* Close Button */}
         <button
           onClick={() => setOpen(false)}
           className="absolute top-4 right-5 text-2xl"
@@ -57,7 +55,6 @@ export default function MobileNavbar() {
           ✕
         </button>
 
-        {/* Menu Items */}
         <nav className="mt-20 flex flex-col text-center">
           {menus.map((item) => (
             <a
