@@ -11,19 +11,19 @@ function Developer() {
     {
       id: 2,
       title: "Book good to your life",
-      price: 20,
+      price: 23,
       img: "https://via.placeholder.com/200x200", // placeholder
     },
     {
       id: 3,
       title: "Book good to your life",
-      price: 20,
+      price: 18,
       img: "https://via.placeholder.com/200x200",
     },
     {
       id: 4,
       title: "Book good to your life",
-      price: 20,
+      price: 34,
       img: "https://via.placeholder.com/200x200",
     },
   ];
