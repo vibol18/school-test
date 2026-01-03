@@ -15,14 +15,13 @@ export default function MobileNavbar() {
 
   return (
     <>
-      {/* Header */}
-      <header className="flex items-center justify-between px-6 py-4 border-b bg-white">
-        {/* Logo */}
+
+      <header className="flex items-center justify-between px-6 py-4 shadow-lg bg-white">
         <h1 className="text-orange-500 font-bold text-lg">
-          Education Cambodia
+          Bol Coding
         </h1>
 
-        {/* Desktop Navbar */}
+
         <nav className="hidden md:flex space-x-6">
           {menus.map((item) => (
             <a
@@ -35,7 +34,6 @@ export default function MobileNavbar() {
           ))}
         </nav>
 
-        {/* Mobile Button */}
         <button
           onClick={() => setOpen(true)}
           className="text-2xl md:hidden"
@@ -44,12 +42,10 @@ export default function MobileNavbar() {
         </button>
       </header>
 
-      {/* Mobile Menu */}
       <div
         className={`fixed top-0 left-0 w-full h-full bg-white z-50 transform transition-transform duration-300
         ${open ? "translate-x-0" : "-translate-x-full"}`}
       >
-        {/* Close */}
         <button
           onClick={() => setOpen(false)}
           className="absolute top-4 right-5 text-2xl"

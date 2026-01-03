@@ -7,8 +7,6 @@ export default function HeroSection() {
         alt="Students"
         className="w-full h-[260px] object-cover"
       />
-
-      {/* Content */}
       <div className="p-5">
         <h1 className="text-xl font-bold leading-tight">
           Join a leading university of technology, design and business
